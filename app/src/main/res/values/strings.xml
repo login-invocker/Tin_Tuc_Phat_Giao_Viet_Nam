@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Phật Giáo Việt Nam</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_video">Video</string>
+    <string name="title_news">Tin tức</string>
+    <string name="title_read">Đọc</string>
+</resources>
