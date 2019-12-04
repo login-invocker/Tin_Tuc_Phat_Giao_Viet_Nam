@@ -13,10 +13,10 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.invocker.phatgiaovietnam.ui.news.NewsFragment"
         android:label="@string/title_news"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_news" />
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.invocker.phatgiaovietnam.ui.read.ReadFragment"
         android:label="@string/title_read"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_read" />
 </navigation>

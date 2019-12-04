@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/img_thumnail"
         android:orientation="vertical"
-        android:paddingLeft="@dimen/_8sdp">
+        android:paddingLeft="@dimen/_8sdp"
+        >
 
         <TextView
             android:id="@+id/tv_title"
@@ -29,12 +30,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/_3sdp"
-            android:text="Mô Tả" />
+            android:text="Mô Tả"
+            android:layout_marginBottom="@dimen/_20sdp"
+            />
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1sp"
+        android:layout_height="@dimen/_1sdp"
+
+        android:layout_marginBottom="@dimen/_4sdp"
         android:layout_alignParentBottom="true"
         android:background="@android:color/black" />
 
